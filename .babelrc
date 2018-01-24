@@ -1,0 +1,8 @@
+{
+    "plugins": [
+        "react-hot-loader/babel"
+    ],
+    "presets": [
+        "flow", "react", "stage-2", "es2015"
+    ]
+}

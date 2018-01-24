@@ -1,0 +1,6 @@
+/**
+ * @flow
+ */
+
+"use strict";
+
