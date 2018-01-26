@@ -3,9 +3,9 @@ import { connect } from "react-redux";
 import { List, ListItem } from "material-ui/List";
 
 import { sendMessage } from "../actions";
-import Elm from "react-elm-components";
+import Elm from "../components/elm-component";
 import { ChatUsers, ChatInput } from "../elm-components/elm";
-import { ApplicationState } from "../types/index";
+import {ApplicationState, Message} from "../types/index";
 
 type Props = {
   messages: Array<Message>
